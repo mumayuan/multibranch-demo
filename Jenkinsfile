@@ -2,6 +2,8 @@
 standardBuild {
     environment = 'golang:1.5.0'
     mainScript = '''
+ls
+
 go version
 go build -v hello-world.go
 '''
